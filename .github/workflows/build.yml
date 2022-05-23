@@ -15,4 +15,4 @@ jobs:
       run: |
         git clone https://github.com/apple/darwin-xnu xnu
         cd xnu
-        bash ../build.sh
+        make SDKROOT=macosx.internal
